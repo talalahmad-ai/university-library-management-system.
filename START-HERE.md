@@ -12,9 +12,25 @@
 
 ## Interventions before submission or Phase 2
 
-- **Issues access:** The connector and CLI returned `403: Resource not accessible by integration` when creating an Issue and label. A retry after the user reported a permission update still failed. Repository Write permission alone did not resolve this. Review the installed GitHub app's requested repository permissions and accept any pending update granting Issues read/write. If that permission is not offered or the current connection remains restricted, use an authorized CLI session on your own computer as described below. Do not send tokens in chat.
+- **Contents and Issues access:** Git push was denied with 403; the connector's Git data write API, Issue creation and CLI label creation also returned `403: Resource not accessible by integration`. Issue/label retries after the user reported a permission update still failed. Repository Write metadata alone did not resolve this. The owner should check that the connected GitHub app is installed/authorized for this exact repository and has effective Contents and Issues read/write permission. Accept any pending permission update and reconnect if needed. If the required permissions are not offered or the session remains restricted, use an authorized CLI account on your own computer. Do not send tokens in chat.
 - **Official dates and availability:** Supply the official A1–A4 submission deadlines. Current targets are proposed, and six hours/day including weekends is a capacity assumption for Talal to confirm.
 - **Literal repository name:** The existing name has a final period; the PDF requests `university-library-management-system` without it. Have the instructor accept that difference or have the owner rename the existing repository. Renaming preserves history but requires updating origin, links, the planning source, scripts and final screenshots. No rename or replacement repository has been performed.
+
+## Publish the preserved Git history first
+
+No prepared changes are currently published. The handover archive includes `phase-1-history.bundle`, containing the original commit and genuine sequential Codex preparation commits. Use it to preserve the actual history rather than uploading a flat snapshot as a single commit:
+
+```bash
+gh auth login --hostname github.com --git-protocol https --web
+git clone phase-1-history.bundle university-library-management-system.
+cd university-library-management-system.
+git remote set-url origin https://github.com/talalahmad-ai/university-library-management-system..git
+git fetch origin
+git merge-base --is-ancestor origin/main HEAD
+git push -u origin main
+```
+
+The double period before `git` is intentional: one period belongs to the repository name and the other starts `.git`. Run from the directory containing the extracted bundle. The ancestor check must succeed. If the owner or a teammate has added new work, reconcile on a branch before pushing; never force-push. If branch protection has changed, publish a review branch and follow the repository's review rules. A flat source snapshot is also included for inspection, but it is not a substitute for the bundled commits.
 
 ## Create the 16 assigned Issues without duplicates
 
@@ -23,10 +39,7 @@ All 16 [drafts](.github/issue-drafts/) name Talal and include proposed dates, de
 On your own computer, install Git/GitHub CLI if missing, then authenticate an authorized account:
 
 ```bash
-gh auth login --hostname github.com --git-protocol https --web
 gh auth status
-gh repo clone talalahmad-ai/university-library-management-system.
-cd university-library-management-system.
 python3 scripts/sync_github_issues.py
 python3 scripts/sync_github_issues.py --apply
 ```
@@ -39,6 +52,7 @@ Verify actual remote state:
 gh issue list --repo talalahmad-ai/university-library-management-system. --state all --limit 100 --json number,title,assignees,labels,milestone,url
 git fetch origin
 git log origin/main --oneline
+python3 scripts/verify_remote.py --strict
 ```
 
 There should be one matching Issue for each of the 16 WBS leaf IDs, assigned to `talalahmad-ai`. Review all labels and milestone links. Creating future-phase tracking Issues is part of A1 planning; it does not authorize executing A2–A4.
@@ -50,6 +64,7 @@ Open the actual repository Issues list and at least one individual assigned Issu
 The capture script can capture public GitHub pages and local artifact renderings after the files/Issues are ready:
 
 ```bash
+python3 scripts/verify_remote.py
 python3 scripts/capture_evidence.py
 python3 scripts/validate_package.py
 git status

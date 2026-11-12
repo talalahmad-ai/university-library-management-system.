@@ -1,6 +1,6 @@
 # Assignment 1 requirements-to-deliverables compliance
 
-Source: instructor PDF, Assignment 1 (page 1), steps 1–10 and both submission groups (10 + 15 marks). Expanded supporting artifacts are included without executing later phases. **Verified** means the stated evidence was checked; **Pending** needs confirmation or a remaining verification; **Blocked** needs access/intervention. A verified local draft does not prove a live GitHub Issue.
+Source: instructor PDF, Assignment 1 (page 1), steps 1–10 and both submission groups (10 + 15 marks). Only Phase 1 was executed. **Verified** identifies the stated checked evidence; **Pending** needs confirmation; **Blocked** needs access/intervention. Verified local documents or commits do not establish published remote deliverables.
 
 | ID | Requirement | Evidence file | Verification method | Status | Remaining action |
 | --- | --- | --- | --- | --- | --- |
@@ -15,14 +15,15 @@ Source: instructor PDF, Assignment 1 (page 1), steps 1–10 and both submission 
 | A1-05b | Effort estimated per task and person | effort-estimates.csv; assignment-1-planning.xlsx | Independent row/column and total checks; base 112 h | Verified | Re-estimate when actual availability is known |
 | A1-06 | Risks assessed with mitigations | risk-register.csv; risk-register.md | 12 risks; valid L×I; named owner; mitigation/contingency | Verified | Monitor high risks and open decisions |
 | A1-07a | Required folders tracked locally | ../requirements/README.md; ../diagrams/README.md; ../ui-prototype/README.md; README.md | Git ls-files for all four top-level folders | Verified | None |
-| A1-07b | Required folders visible remotely | evidence/remote-verification.json | Remote Git tree and genuine repository screenshot | Pending | Verify after pushing |
+| A1-07b | Required folders visible remotely | evidence/remote-verification.json | Actual remote API and screenshots show only original README/commit; writes failed HTTP 403 | Blocked | Restore effective Contents write access, publish bundled commits and recapture real remote state |
 | A1-08 | Git installed and actual remote cloned | evidence/baseline-inspection.json | Git 2.52.0 and clone/remote inspection | Verified | None |
 | A1-09a | At least three genuine meaningful new commits | ../README.md | Local Git log; current timestamps; Codex authorship; original preserved | Verified | None locally |
-| A1-09b | Commit history verified on remote | evidence/remote-verification.json | Remote API and fetched origin/main compare | Pending | Publish normal non-forced commits and verify |
+| A1-09b | Commit history verified on remote | evidence/remote-verification.json | Actual remote API and screenshots show only original README/commit; writes failed HTTP 403 | Blocked | Restore effective Contents write access, publish bundled commits and recapture real remote state |
 | A1-10a | Issue definition for every major work package | ../.github/issue-plan.json; issue-map.md | 16 unique WBS-linked drafts; actual assignee specified | Verified | Drafts alone do not meet live Issue requirement |
 | A1-10b | Actual GitHub Issue per major task assigned to student | evidence/issue-access-failure.json; issue-map.md | Creation failed HTTP 403 through connector/CLI; retry unchanged | Blocked | Restore effective Issues write access and run sync_github_issues.py --apply |
-| SUB-01 | Repository URL and readable README supplied | ../README.md | Verified exact trailing-dot URL and local README | Verified | Resolve literal-name exception |
+| SUB-01 | Exact existing repository URL supplied | ../README.md | Authenticated API and actual public GitHub page | Verified | Resolve literal-name exception |
+| SUB-01b | Prepared README and planning files published | evidence/remote-verification.json; evidence/publish-access-failure.json | Git push and Git data API both rejected HTTP 403; remote remains baseline | Blocked | Publish included Git bundle using effective Contents write access |
 | SUB-02 | Genuine screenshots of assigned GitHub Issues | evidence/issue-access-failure.json | No live assigned Issue exists to capture | Blocked | Create actual assigned Issues, capture list and individual Issue |
 | SUB-03 | Editable and exported WBS | wbs.drawio; wbs.csv; wbs-diagram.pdf; wbs-diagram.png | XML hierarchy parse, source-ID checks and visual export review | Verified | None |
-| QA-01 | PDF/XLSX/images/links verified | quality-review.md | Automated artifact validation plus visual inspection | Pending | Complete final validation and record output |
+| QA-01 | PDF/XLSX/images/links verified | quality-review.md | 26 local validation checks plus visual review of report, charts and captured artifacts | Verified | Re-verify external state after permission resolution |
 | QA-02 | Later-phase execution excluded | ../requirements/README.md; ../diagrams/README.md; ../ui-prototype/README.md | Folders contain boundary READMEs, not later-phase deliverables | Verified | Await user instruction after reporting Phase 1 blockers |

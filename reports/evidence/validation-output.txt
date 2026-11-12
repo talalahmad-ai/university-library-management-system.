@@ -1,0 +1,29 @@
+PASS Required editable documents and exports exist
+PASS 16 unique leaf work packages
+PASS Dependency graph exists and is acyclic
+PASS Every finish-to-start dependency has valid date ordering
+PASS Schedule covers each WBS leaf once
+PASS Inclusive calendar durations match actual dates
+PASS Every task has the confirmed actual student
+PASS Role-to-person effort reconciles for every task
+PASS Base person effort = 112 h; no role double counting
+PASS 15% unallocated reserve = 16.8 h; envelope = 128.8 h
+PASS Combined one-student workload <= 6 h/day and daily allocations sum to 112 h
+PASS Independent longest dependency path = 32 calendar days
+PASS Exactly one named accountable/responsible student per package
+PASS 12 risk scores, owners, mitigations and contingencies are complete
+PASS One real-ready assigned Issue definition per major work package (drafts only)
+PASS Editable diagrams.net WBS XML contains hierarchy and every leaf
+PASS XLSX opens with nine planning sheets
+PASS Cached spreadsheet totals agree with independently calculated totals
+PASS Spreadsheet dependency and capacity checks have correct cached results
+PASS Effort totals and risk scores remain editable formulas
+PASS All PDFs open; extracted text blocks remain inside page bounds
+PASS All exported charts and captured screenshots decode successfully
+PASS All local Markdown links and embedded images resolve
+PASS All four required folders contain Git-tracked files
+PASS Original remote commit remains an ancestor; no rewritten history
+PASS Compliance statuses use only Verified, Pending and Blocked
+
+Local checks: 26/26 passed.
+Submission gate: review Pending/Blocked rows in compliance-matrix.md. Local checks do not prove live Issues or official deadline confirmation.

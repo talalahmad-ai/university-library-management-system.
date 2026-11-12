@@ -51,7 +51,7 @@ The project also includes planning, requirements documentation, UML, a clickable
 | C02 | Constraint | Full LMS implementation is unnecessary; effort is limited to the specified academic artifacts. |
 | C03 | Constraint | Existing remote history and legitimate work must be preserved; no forced push or impersonated authorship. |
 | C04 | Constraint | Use synthetic examples only; no credentials, private records or invented participation in evidence. |
-| D01 | Dependency | Repository Write permission and valid assignee eligibility passed initial checks. Live Issue creation is still blocked by the integration's HTTP 403; that separate Issues write permission must be resolved. |
+| D01 | Dependency | Repository metadata reports Write permission and assignee eligibility passed. Effective Git push, Git data API writes and Issue creation return HTTP 403; Contents and Issues write access must be resolved. |
 | D02 | Dependency | Official dates and the repository-name exception need owner/instructor resolution before submission approval. |
 | D03 | Dependency | SRS review precedes dependent UML and UI work; UML review and screen designs precede prototype linking. |
 | D04 | Dependency | Later prototype testing depends on actual classmates and a shareable clickable file; Phase 1 does not claim those exist. |
@@ -66,7 +66,7 @@ Review the plan at each milestone. Record a requested change, its reason, affect
 
 The [effort table](responsibility-matrix.md) allocates 112 base person-hours to Talal across 16 leaf work packages. A 15% estimate reserve is 16.8 hours, for a planning envelope of 128.8 hours. The reserve is unallocated effort, not additional work already scheduled or a claim of calendar float. A delay still requires dependency/capacity review.
 
-Review the [risk register](risk-register.md) at kickoff and at each phase gate. Requirement ambiguity and unknown official deadlines are the highest-scored open risks. Initial URL access failure was resolved by the user's trailing-dot correction; access remains a monitored dependency.
+Review the [risk register](risk-register.md) at kickoff and at each phase gate. Effective GitHub write access failure is the highest-priority realized issue (25), followed by ambiguous policies and unknown official deadlines (16 each). The user's trailing-dot correction resolved the URL problem, but Git push, Git data writes and Issue creation remain blocked by HTTP 403.
 
 Assignment 1 is ready for academic review when all official deliverables and genuine remote evidence pass the [compliance matrix](compliance-matrix.md), with any permitted exceptions disclosed. The owner must confirm deadlines/availability and resolve the literal repository-name difference. Preparation completion is distinct from student review or instructor acceptance.
 

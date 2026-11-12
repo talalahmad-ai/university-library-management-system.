@@ -4,6 +4,7 @@ import csv
 import html
 import json
 import os
+import sys
 from datetime import datetime,timezone
 from pathlib import Path
 from playwright.sync_api import sync_playwright
@@ -14,7 +15,9 @@ records=[]
 def now():return datetime.now(timezone.utc).isoformat()
 def record(name,source,kind,**extra):records.append({'file':name,'source':source,'kind':kind,'captured_at_utc':now(),**extra})
 with sync_playwright() as p:
-    browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
+    executable=os.environ.get('CHROMIUM_EXECUTABLE')
+    if not executable and Path('/usr/bin/chromium').exists():executable='/usr/bin/chromium'
+    browser=p.chromium.launch(executable_path=executable,headless=True,args=['--no-sandbox'] if sys.platform.startswith('linux') else [])
     context=browser.new_context(viewport={'width':1600,'height':1100},device_scale_factor=1)
     page=context.new_page()
     targets=[('github-repository.png',base),('github-commits.png',base+'/commits/main/'),('github-issues.png',base+'/issues')]

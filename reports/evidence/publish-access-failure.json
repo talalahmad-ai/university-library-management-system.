@@ -1,0 +1,14 @@
+{
+  "observed_at_utc": "2026-11-12T17:44:13.888829+00:00",
+  "repository": "talalahmad-ai/university-library-management-system.",
+  "operation": "Non-forced git push origin main",
+  "local_head_at_attempt": "d9c248eadea65e03b10ebc62b4374e2fa868b212",
+  "remote_head_after_attempt": "d6eb07659dd092780801050675d9dbc30f8495ca",
+  "git_response": "remote: Permission to talalahmad-ai/university-library-management-system..git denied to Hamza-Khaalid. fatal: unable to access remote: The requested URL returned error: 403",
+  "connector_git_blob_probe": {
+    "status": 403,
+    "message": "Resource not accessible by integration"
+  },
+  "published_new_commits": 0,
+  "remaining_action": "Grant effective repository Contents write permission to the connected GitHub App, or publish the included bundle using an authorized account."
+}

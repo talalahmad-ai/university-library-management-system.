@@ -33,7 +33,7 @@ The user confirmed Talal Ahmad and his GitHub username. This plan uses one stude
 
 Intended repository: <https://github.com/talalahmad-ai/university-library-management-system.>
 
-The repository name has a literal trailing period. After the user corrected the URL, authenticated access, Write permission and cloning succeeded. The initial remote contained one README and commit `d6eb076`; that history is retained. The owner is `talalahmad-ai`. No replacement repository was created. The supplied starter ZIP was inspected separately before integration. The existing name differs from the PDF's literal requested name by its final period; confirm with the instructor or have the owner rename it before submission if exact spelling is enforced.
+The repository name has a literal trailing period. After the user corrected the URL, authenticated reads and cloning succeeded, and GitHub reported repository Write permission. Effective writes are nevertheless restricted: pushing, the connector's Git data API, and Issue creation returned HTTP 403. The remote still contains its original README and commit `d6eb076`; prepared changes are local. That original history is retained. The owner is `talalahmad-ai`. No replacement repository was created. The supplied starter ZIP was inspected separately before integration. The existing name differs from the PDF's literal requested name by its final period; confirm with the instructor or have the owner rename it before submission if exact spelling is enforced.
 
 ## Structure and document links
 
@@ -70,7 +70,7 @@ Review scope and estimates, confirm deadlines, track assigned Issues without dup
 
 ## Current status and limitations
 
-Assignment 1 planning documents, editable sources, exports and task definitions are prepared. Live Issue creation is blocked by `403: Resource not accessible by integration`, including a retry after a reported permission update. Official deadlines and the repository-name discrepancy require confirmation. Consult the [evidence index](reports/evidence/README.md) and [compliance matrix](reports/compliance-matrix.md) for verified commits, screenshots and remaining actions. Preparation commits are attributed to Codex and do not assert student participation. Assignment 1 must not be marked fully complete while assigned Issues and their screenshots are blocked. Assignments 2–4 are planned only and have not been executed.
+Assignment 1 planning documents, editable sources, exports and task definitions are prepared locally. Publishing and live Issue creation are blocked by HTTP 403, including Issue retries after a reported permission update. Official deadlines and the repository-name discrepancy require confirmation. Consult the [evidence index](reports/evidence/README.md) and [compliance matrix](reports/compliance-matrix.md) for verified local artifacts, actual remote state and remaining actions. Preparation commits are attributed to Codex and do not assert student participation. Assignment 1 must not be marked fully complete until the changes and genuine commits are published, assigned Issues exist and their screenshots are captured. Assignments 2–4 are planned only and have not been executed.
 
 ## Source and attribution
 

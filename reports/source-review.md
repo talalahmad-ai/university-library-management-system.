@@ -11,7 +11,7 @@ The user's current request authorizes inspection, Assignment 1 preparation, veri
 | Uploaded README.md | Repository heading and “ASSIGNMENT 01” | Preserve as an input; insufficient as the project README |
 | Assignment PDF, page 1 | Case scenario; Assignment 1 steps 1–10; submission items and 10+15 marks | Official Assignment 1 checklist |
 | Assignment PDF, pages 1–2 | Assignments 2–4; groups of 1–3 students | Future scope and planning constraints only |
-| Starter ZIP | 31 files, draft charter/WBS/Gantt/RACI/risks, nine issue drafts; no Git metadata | Inspected as a supplied repository snapshot, not as remote history |
+| Starter ZIP | 33 files, draft charter/WBS/Gantt/RACI/risks, nine issue drafts; no Git metadata | Inspected as a supplied repository snapshot, not as remote history |
 | Pasted text.txt | Expanded quality expectations and intended remote URL | Supporting detail within Phase 1; no fabricated identities, history or evidence |
 
 ## Inspection findings
@@ -23,6 +23,7 @@ The user's current request authorizes inspection, Assignment 1 preparation, veri
 5. Starter risks have mitigations but no distinct contingency actions. The revised register adds triggers, responses and ownership status.
 6. Git 2.52.0 and an authenticated `Hamza-Khaalid` preparation account are available. The URL in the attachments omitted the literal final period; access to that URL failed. The user corrected the name to `university-library-management-system.`. API/CLI checks then verified the public repository and Write access, and cloning succeeded. Its sole original file was README.md and its sole commit was `d6eb07659dd092780801050675d9dbc30f8495ca`. There were zero Issues, no repository rulesets and an unprotected main branch. `talalahmad-ai` is eligible as an assignee. See [baseline inspection](evidence/baseline-inspection.json).
 7. Live Issue creation and label creation returned `403: Resource not accessible by integration`. Both failed again after the user reported a permission update. Repository contents Write permission and owner assignee eligibility do not establish Issues write permission; the live task/evidence requirement remains blocked.
+8. The normal Git push also returned 403, and the connector's Git blob write API returned `Resource not accessible by integration`. Thus the declared Write role does not establish effective Contents write access. No new commits or files have been published; actual remote state remains one initial commit, one README and zero Issues. Local preparation and real screenshots are retained for handover.
 
 ## Unresolved facts
 

@@ -6,7 +6,7 @@
 
 Likelihood: 1 rare, 2 unlikely, 3 possible, 4 likely, 5 almost certain. Impact: 1 negligible rework, 2 minor rework, 3 material task delay, 4 phase-gate threat, 5 inability to meet a mandatory submission element. Score = likelihood × impact; 1–5 Low, 6–14 Medium, 15–25 High. These are qualitative planning judgments, not measured probabilities. Review High risks at each work session and all risks at phase gates or when a trigger occurs. Talal owns mitigation and contingency decisions.
 
-**High priority:** R01 (16, ambiguous policies) and R05 (16, official deadlines unknown). The original URL access problem was resolved by the corrected trailing-dot URL; R03 monitors recurrence. The literal repository-name mismatch is a current open decision tracked by R12.
+**High priority:** R03 (25, effective write access failure), R01 (16, ambiguous policies) and R05 (16, official deadlines unknown). The original URL problem was resolved by the corrected trailing-dot URL. R03 is now a realized issue: Git push, Git data writes and Issue creation return HTTP 403. The literal repository-name mismatch is a current open decision tracked by R12.
 
 ## R01 — Ambiguous lending and reservation policies
 
@@ -24,13 +24,13 @@ Likelihood **3** · Impact **4** · Score **12** · Medium · Monitoring role: L
 - Mitigation: Allocate all role hours to Talal; check aggregate daily demand; review estimates at each gate.
 - Contingency: Use the 15% effort reserve, re-sequence discretionary polish and propose revised dates to the instructor.
 
-## R03 — Repository URL or account access fails
+## R03 — Repository URL or effective write access fails
 
-Likelihood **2** · Impact **5** · Score **10** · Medium · Monitoring role: Lead
+Likelihood **5** · Impact **5** · Score **25** · High · Monitoring role: Lead
 
-- Trigger: Clone, push or Issue assignment returns an access error.
-- Mitigation: Use the verified trailing-dot URL; verify Write and assignee eligibility; keep a local backup.
-- Contingency: Owner restores collaborator/app access; retain local commits and package without creating a replacement remote.
+- Trigger: Push, Git data write or Issue creation returns an access error; currently triggered by HTTP 403.
+- Mitigation: Use the verified trailing-dot URL; verify effective Contents and Issues write access rather than repository role alone; retain the local Git bundle.
+- Contingency: Owner restores app access or publishes from an authorized CLI account; retain local commits and package without creating a replacement remote.
 
 ## R04 — Student unavailable during a critical work package
 
