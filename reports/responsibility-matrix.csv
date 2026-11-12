@@ -1,0 +1,17 @@
+WBS ID,Work package,Named student,RACI,Functional lead role
+1.1,Initiation and role allocation,Talal Ahmad (@talalahmad-ai),A/R,Lead
+1.2,Repository foundation,Talal Ahmad (@talalahmad-ai),A/R,Lead
+1.3,Project charter and scope,Talal Ahmad (@talalahmad-ai),A/R,Analyst
+1.4,"WBS, responsibility and effort",Talal Ahmad (@talalahmad-ai),A/R,Lead
+1.5,Schedule and Gantt chart,Talal Ahmad (@talalahmad-ai),A/R,Lead
+1.6,Risk assessment and responses,Talal Ahmad (@talalahmad-ai),A/R,Designer
+1.7,"Issues, commits and A1 evidence review",Talal Ahmad (@talalahmad-ai),A/R,Lead
+2.1,Stakeholder analysis,Talal Ahmad (@talalahmad-ai),A/R,Analyst
+2.2,"Requirements, stories and criteria",Talal Ahmad (@talalahmad-ai),A/R,Analyst
+2.3,"SRS, AI review and traceability",Talal Ahmad (@talalahmad-ai),A/R,Analyst
+3.1,Use-case and class diagrams,Talal Ahmad (@talalahmad-ai),A/R,Designer
+3.2,Borrowing and return UML,Talal Ahmad (@talalahmad-ai),A/R,Designer
+4.1,Five-screen UI design,Talal Ahmad (@talalahmad-ai),A/R,Designer
+4.2,Clickable prototype and workflows,Talal Ahmad (@talalahmad-ai),A/R,Designer
+4.3,Usability testing and improvements,Talal Ahmad (@talalahmad-ai),A/R,Designer
+4.4,Final QA and submission handover,Talal Ahmad (@talalahmad-ai),A/R,Lead

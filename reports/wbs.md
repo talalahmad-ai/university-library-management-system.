@@ -1,0 +1,33 @@
+# Work Breakdown Structure
+
+The project root is 0.0; Assignment 1–4 branches are 1.0–4.0. The 16 numbered leaf packages are the only effort-bearing items; summary branches and milestones are not double-counted.
+
+![WBS](wbs-diagram.png)
+
+| Branch | Planned outcome | Execution status |
+|---|---|---|
+| 1.0 Assignment 1 | Project initiation, repository, planning and GitHub evidence | Phase 1 execution |
+| 2.0 Assignment 2 | Stakeholder needs and requirements/SRS baseline | Future plan only |
+| 3.0 Assignment 3 | Four UML views and explanations | Future plan only |
+| 4.0 Assignment 4 | Clickable UI, real usability review and final submission | Future plan only |
+
+| ID | Package | Deliverable | Acceptance evidence |
+| --- | --- | --- | --- |
+| 1.1 | Initiation and role allocation | Source review, named student and role allocation | Official scope is distinguished from supporting attachments; confirmed roster and open decisions are recorded. |
+| 1.2 | Repository foundation | README, four tracked folders and preserved remote history | Existing repository is cloned and inspected; required directories are tracked; README covers project and actual student. |
+| 1.3 | Project charter and scope | Charter with objectives, boundaries, assumptions and success criteria | All six scenario capabilities are covered; exclusions and policy questions are explicit; full implementation is excluded. |
+| 1.4 | WBS, responsibility and effort | WBS source/export, named RACI and task/person effort totals | All leaf IDs match the schedule; every package has exactly one accountable person; row and column effort sums reconcile. |
+| 1.5 | Schedule and Gantt chart | Editable schedule and dated Gantt with milestones | Dates, durations, dependencies, owners, hours and proposed deadlines are present; dependency and capacity checks pass. |
+| 1.6 | Risk assessment and responses | Scored risk register with triggers, mitigations and contingencies | At least eight relevant risks have likelihood, impact, calculated score, owner and distinct mitigation/contingency actions. |
+| 1.7 | Issues, commits and A1 evidence review | Assigned Issues, genuine remote commits, screenshots and A1 audit | Each major task has a real assigned Issue; at least three meaningful new commits are remote; evidence index and compliance audit identify all remaining actions. |
+| 2.1 | Stakeholder analysis | Stakeholder-needs table and policy questions | At least librarian, student, faculty and administrator needs are recorded; any consultations use genuine evidence. |
+| 2.2 | Requirements, stories and criteria | Requirements list, user stories and measurable acceptance criteria | At least 10 FR, four NFR, five assumptions/constraints and eight user stories with measurable acceptance criteria are reviewed. |
+| 2.3 | SRS, AI review and traceability | Structured SRS, AI-review decisions and traceability matrix | SRS contains all specified sections, contents and revision history; at least five AI suggestions have justified decisions; trace links are verified. |
+| 3.1 | Use-case and class diagrams | Editable use-case/class diagrams, exports and explanations | Correct UML notation and multiplicities; required domain classes; consistency with the approved SRS. |
+| 3.2 | Borrowing and return UML | Borrowing sequence and return/overdue activity diagrams | Borrowing validation and loan creation are modeled; return includes overdue handling; editable files and exports match the SRS. |
+| 4.1 | Five-screen UI design | Login, student dashboard, search, details and librarian screens | Five coherent accessible screen designs cover the specified functions; design files are editable. |
+| 4.2 | Clickable prototype and workflows | Figma prototype with reservation and issue/return workflows | A real share link and clickable interactions demonstrate both workflows; screenshots represent the actual file. |
+| 4.3 | Usability testing and improvements | Two real classmates' feedback and two evidenced improvements | Actual participants test both workflows; observations are recorded; at least two changes trace to genuine feedback. |
+| 4.4 | Final QA and submission handover | Cross-artifact QA, evidence index and final submission package | SRS, UML and UI are consistent; all links/exports open; submission checklist is complete; real human evidence is distinguished from templates. |
+
+Editable sources: [CSV dictionary](wbs.csv), [diagrams.net file](wbs.drawio), [planning source](planning-data.json) and [workbook WBS sheet](assignment-1-planning.xlsx). Visual exports: [PNG](wbs-diagram.png) / [PDF](wbs-diagram.pdf). Every leaf ID has a schedule row, effort row, accountable student and Issue definition.
