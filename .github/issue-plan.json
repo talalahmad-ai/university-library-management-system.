@@ -1,0 +1,242 @@
+[
+  {
+    "id": "1.1",
+    "title": "[1.1] Initiation and role allocation",
+    "body": "## Work package 1.1 \u00b7 A1\n\n**Scope:** Assignment 1 preparation\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Lead; all three roles belong to the same student.\n**Proposed dates:** 2026-11-13 to 2026-11-13 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 4 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** None.\n\n## Deliverable\n\nSource review, named student and role allocation.\n\n## Acceptance criteria\n\n- [ ] Official scope is distinguished from supporting attachments; confirmed roster and open decisions are recorded.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/1-1.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-1",
+      "planning"
+    ],
+    "phase": "A1"
+  },
+  {
+    "id": "1.2",
+    "title": "[1.2] Repository foundation",
+    "body": "## Work package 1.2 \u00b7 A1\n\n**Scope:** Assignment 1 preparation\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Lead; all three roles belong to the same student.\n**Proposed dates:** 2026-11-14 to 2026-11-14 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 3 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 1.1.\n\n## Deliverable\n\nREADME, four tracked folders and preserved remote history.\n\n## Acceptance criteria\n\n- [ ] Existing repository is cloned and inspected; required directories are tracked; README covers project and actual student.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/1-2.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-1",
+      "planning"
+    ],
+    "phase": "A1"
+  },
+  {
+    "id": "1.3",
+    "title": "[1.3] Project charter and scope",
+    "body": "## Work package 1.3 \u00b7 A1\n\n**Scope:** Assignment 1 preparation\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Analyst; all three roles belong to the same student.\n**Proposed dates:** 2026-11-14 to 2026-11-15 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 6 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 1.1.\n\n## Deliverable\n\nCharter with objectives, boundaries, assumptions and success criteria.\n\n## Acceptance criteria\n\n- [ ] All six scenario capabilities are covered; exclusions and policy questions are explicit; full implementation is excluded.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/1-3.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-1",
+      "planning"
+    ],
+    "phase": "A1"
+  },
+  {
+    "id": "1.4",
+    "title": "[1.4] WBS, responsibility and effort",
+    "body": "## Work package 1.4 \u00b7 A1\n\n**Scope:** Assignment 1 preparation\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Lead; all three roles belong to the same student.\n**Proposed dates:** 2026-11-16 to 2026-11-16 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 6 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 1.3.\n\n## Deliverable\n\nWBS source/export, named RACI and task/person effort totals.\n\n## Acceptance criteria\n\n- [ ] All leaf IDs match the schedule; every package has exactly one accountable person; row and column effort sums reconcile.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/1-4.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-1",
+      "planning"
+    ],
+    "phase": "A1"
+  },
+  {
+    "id": "1.5",
+    "title": "[1.5] Schedule and Gantt chart",
+    "body": "## Work package 1.5 \u00b7 A1\n\n**Scope:** Assignment 1 preparation\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Lead; all three roles belong to the same student.\n**Proposed dates:** 2026-11-17 to 2026-11-17 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 5 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 1.4.\n\n## Deliverable\n\nEditable schedule and dated Gantt with milestones.\n\n## Acceptance criteria\n\n- [ ] Dates, durations, dependencies, owners, hours and proposed deadlines are present; dependency and capacity checks pass.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/1-5.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-1",
+      "planning"
+    ],
+    "phase": "A1"
+  },
+  {
+    "id": "1.6",
+    "title": "[1.6] Risk assessment and responses",
+    "body": "## Work package 1.6 \u00b7 A1\n\n**Scope:** Assignment 1 preparation\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Designer; all three roles belong to the same student.\n**Proposed dates:** 2026-11-18 to 2026-11-18 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 4 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 1.5.\n\n## Deliverable\n\nScored risk register with triggers, mitigations and contingencies.\n\n## Acceptance criteria\n\n- [ ] At least eight relevant risks have likelihood, impact, calculated score, owner and distinct mitigation/contingency actions.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/1-6.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-1",
+      "planning"
+    ],
+    "phase": "A1"
+  },
+  {
+    "id": "1.7",
+    "title": "[1.7] Issues, commits and A1 evidence review",
+    "body": "## Work package 1.7 \u00b7 A1\n\n**Scope:** Assignment 1 preparation\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Lead; all three roles belong to the same student.\n**Proposed dates:** 2026-11-19 to 2026-11-20 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 6 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 1.2, 1.5, 1.6.\n\n## Deliverable\n\nAssigned Issues, genuine remote commits, screenshots and A1 audit.\n\n## Acceptance criteria\n\n- [ ] Each major task has a real assigned Issue; at least three meaningful new commits are remote; evidence index and compliance audit identify all remaining actions.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/1-7.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-1",
+      "planning"
+    ],
+    "phase": "A1"
+  },
+  {
+    "id": "2.1",
+    "title": "[2.1] Stakeholder analysis",
+    "body": "## Work package 2.1 \u00b7 A2\n\n**Scope:** Future phase \u2014 planning only; not executed in Phase 1\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Analyst; all three roles belong to the same student.\n**Proposed dates:** 2026-11-21 to 2026-11-23 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 7 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 1.7.\n\n## Deliverable\n\nStakeholder-needs table and policy questions.\n\n## Acceptance criteria\n\n- [ ] At least librarian, student, faculty and administrator needs are recorded; any consultations use genuine evidence.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/2-1.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-2",
+      "future-phase"
+    ],
+    "phase": "A2"
+  },
+  {
+    "id": "2.2",
+    "title": "[2.2] Requirements, stories and criteria",
+    "body": "## Work package 2.2 \u00b7 A2\n\n**Scope:** Future phase \u2014 planning only; not executed in Phase 1\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Analyst; all three roles belong to the same student.\n**Proposed dates:** 2026-11-24 to 2026-11-26 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 12 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 2.1.\n\n## Deliverable\n\nRequirements list, user stories and measurable acceptance criteria.\n\n## Acceptance criteria\n\n- [ ] At least 10 FR, four NFR, five assumptions/constraints and eight user stories with measurable acceptance criteria are reviewed.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/2-2.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-2",
+      "future-phase"
+    ],
+    "phase": "A2"
+  },
+  {
+    "id": "2.3",
+    "title": "[2.3] SRS, AI review and traceability",
+    "body": "## Work package 2.3 \u00b7 A2\n\n**Scope:** Future phase \u2014 planning only; not executed in Phase 1\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Analyst; all three roles belong to the same student.\n**Proposed dates:** 2026-11-27 to 2026-11-29 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 12 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 2.2.\n\n## Deliverable\n\nStructured SRS, AI-review decisions and traceability matrix.\n\n## Acceptance criteria\n\n- [ ] SRS contains all specified sections, contents and revision history; at least five AI suggestions have justified decisions; trace links are verified.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/2-3.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-2",
+      "future-phase"
+    ],
+    "phase": "A2"
+  },
+  {
+    "id": "3.1",
+    "title": "[3.1] Use-case and class diagrams",
+    "body": "## Work package 3.1 \u00b7 A3\n\n**Scope:** Future phase \u2014 planning only; not executed in Phase 1\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Designer; all three roles belong to the same student.\n**Proposed dates:** 2026-11-30 to 2026-12-02 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 10 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 2.3.\n\n## Deliverable\n\nEditable use-case/class diagrams, exports and explanations.\n\n## Acceptance criteria\n\n- [ ] Correct UML notation and multiplicities; required domain classes; consistency with the approved SRS.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/3-1.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-3",
+      "future-phase"
+    ],
+    "phase": "A3"
+  },
+  {
+    "id": "3.2",
+    "title": "[3.2] Borrowing and return UML",
+    "body": "## Work package 3.2 \u00b7 A3\n\n**Scope:** Future phase \u2014 planning only; not executed in Phase 1\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Designer; all three roles belong to the same student.\n**Proposed dates:** 2026-12-03 to 2026-12-05 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 8 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 3.1.\n\n## Deliverable\n\nBorrowing sequence and return/overdue activity diagrams.\n\n## Acceptance criteria\n\n- [ ] Borrowing validation and loan creation are modeled; return includes overdue handling; editable files and exports match the SRS.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/3-2.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-3",
+      "future-phase"
+    ],
+    "phase": "A3"
+  },
+  {
+    "id": "4.1",
+    "title": "[4.1] Five-screen UI design",
+    "body": "## Work package 4.1 \u00b7 A4\n\n**Scope:** Future phase \u2014 planning only; not executed in Phase 1\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Designer; all three roles belong to the same student.\n**Proposed dates:** 2026-11-30 to 2026-12-03 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 8 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 2.3.\n\n## Deliverable\n\nLogin, student dashboard, search, details and librarian screens.\n\n## Acceptance criteria\n\n- [ ] Five coherent accessible screen designs cover the specified functions; design files are editable.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/4-1.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-4",
+      "future-phase"
+    ],
+    "phase": "A4"
+  },
+  {
+    "id": "4.2",
+    "title": "[4.2] Clickable prototype and workflows",
+    "body": "## Work package 4.2 \u00b7 A4\n\n**Scope:** Future phase \u2014 planning only; not executed in Phase 1\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Designer; all three roles belong to the same student.\n**Proposed dates:** 2026-12-06 to 2026-12-08 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 10 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 3.2, 4.1.\n\n## Deliverable\n\nFigma prototype with reservation and issue/return workflows.\n\n## Acceptance criteria\n\n- [ ] A real share link and clickable interactions demonstrate both workflows; screenshots represent the actual file.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/4-2.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-4",
+      "future-phase"
+    ],
+    "phase": "A4"
+  },
+  {
+    "id": "4.3",
+    "title": "[4.3] Usability testing and improvements",
+    "body": "## Work package 4.3 \u00b7 A4\n\n**Scope:** Future phase \u2014 planning only; not executed in Phase 1\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Designer; all three roles belong to the same student.\n**Proposed dates:** 2026-12-09 to 2026-12-11 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 6 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 4.2.\n\n## Deliverable\n\nTwo real classmates' feedback and two evidenced improvements.\n\n## Acceptance criteria\n\n- [ ] Actual participants test both workflows; observations are recorded; at least two changes trace to genuine feedback.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/4-3.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-4",
+      "future-phase"
+    ],
+    "phase": "A4"
+  },
+  {
+    "id": "4.4",
+    "title": "[4.4] Final QA and submission handover",
+    "body": "## Work package 4.4 \u00b7 A4\n\n**Scope:** Future phase \u2014 planning only; not executed in Phase 1\n**Assigned student:** Talal Ahmad (@talalahmad-ai), identity confirmed by the user.\n**Functional lead role:** Lead; all three roles belong to the same student.\n**Proposed dates:** 2026-12-12 to 2026-12-14 (calendar days; official deadline unconfirmed).\n**Estimated effort:** 5 person-hours, assigned to Talal. This is an estimate, not actual time spent.\n**Finish-to-start predecessors:** 2.3, 3.2, 4.3.\n\n## Deliverable\n\nCross-artifact QA, evidence index and final submission package.\n\n## Acceptance criteria\n\n- [ ] SRS, UML and UI are consistent; all links/exports open; submission checklist is complete; real human evidence is distinguished from templates.\n- [ ] Related files, links and exports are reviewed and open correctly.\n- [ ] Any remaining assumptions or blockers are recorded; no student contribution or human evidence is fabricated.\n\n## Review context\n\nThe Assignment 1 planning package was prepared with Codex assistance through the authorized helper account. Issue assignment denotes planned student responsibility, not participation already performed. A1 artifacts should be reviewed by Talal; later-phase deliverables await separate authorization. See the repository's `reports/wbs.md`, `reports/project-schedule.md` and `reports/compliance-matrix.md`. Keep official deadlines distinct from proposed targets.\n",
+    "body_file": ".github/issue-drafts/4-4.md",
+    "assignees": [
+      "talalahmad-ai"
+    ],
+    "labels": [
+      "documentation",
+      "assignment-4",
+      "future-phase"
+    ],
+    "phase": "A4"
+  }
+]
