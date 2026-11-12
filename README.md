@@ -2,6 +2,10 @@
 
 Software Engineering coursework · **Phase 1 / Assignment 1 only** · Reviewed 12 November 2026
 
+## Assignment 1 submission files
+
+Download the [complete submission PDF](submission/Assignment_1_Talal_Ahmad_Submission.pdf) or the [submission ZIP](submission/Assignment_1_Talal_Ahmad_Submission.zip). The PDF includes the planning report and genuine GitHub evidence appendices. The ZIP also includes the editable workbook, planning sources, chart exports, README and original screenshots. See the [upload guide](submission/README.md).
+
 ## Project and problem
 
 The case scenario describes a university library using manual records or an outdated system for membership, book borrowing, returns and overdue items. The proposed Library Management System (LMS) will support books, members, borrowing, returns, reservations and overdue notifications. This coursework specifies and designs that system; the assignment does not require a complete implementation.
