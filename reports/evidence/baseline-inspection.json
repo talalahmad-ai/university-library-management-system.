@@ -1,0 +1,20 @@
+{
+  "observed_at_utc": "2026-11-12T17:21:22.770996+00:00",
+  "repository": "talalahmad-ai/university-library-management-system.",
+  "original_head": "d6eb07659dd092780801050675d9dbc30f8495ca",
+  "default_branch": "main",
+  "tracked_files": [
+    "README.md"
+  ],
+  "issue_count": 0,
+  "rulesets": [],
+  "branch_protected": false,
+  "viewer_permission": "WRITE",
+  "owner_assignee_eligible": true,
+  "authenticated_preparer": "Hamza-Khaalid",
+  "student_confirmed_by_user": {
+    "name": "Talal Ahmad",
+    "github": "talalahmad-ai"
+  },
+  "note": "Original remote inspected before integration; the uploaded URL lacked the final dot. No student contribution is inferred from preparation work."
+}
