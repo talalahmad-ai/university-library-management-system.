@@ -1,6 +1,6 @@
 # Assignment 1 requirements-to-deliverables compliance
 
-Source: instructor PDF, Assignment 1 (page 1), steps 1–10 and both submission groups (10 + 15 marks). Only Phase 1 was executed. **Verified** means the stated evidence was checked; **Pending** needs confirmation or final verification; **Blocked** identifies an unavailable dependency. Historical access errors are resolved.
+Source: instructor PDF, Assignment 1 (page 1), steps 1–10 and both submission groups (10 + 15 marks). Only Phase 1 was executed. **Verified** means the stated evidence was checked; **Pending** identifies human confirmations; **Blocked** is reserved for unavailable dependencies. The access blocker is resolved. Technical artifacts and remote evidence are Verified; official deadlines, availability/plan review and the repository-name exception remain Pending.
 
 | ID | Requirement | Evidence file | Verification method | Status | Remaining action |
 | --- | --- | --- | --- | --- | --- |
@@ -22,9 +22,9 @@ Source: instructor PDF, Assignment 1 (page 1), steps 1–10 and both submission 
 | A1-10a | Issue definition for every major work package | ../.github/issue-plan.json; issue-map.md | 16 unique WBS-linked drafts; actual assignee specified | Verified | Drafts alone do not meet live Issue requirement |
 | A1-10b | Actual GitHub Issue per major task assigned to student | evidence/remote-verification.json; issue-map.md; evidence/access-resolution.json | Successful normal Git push; live remote tree/history and all 16 assignees, phase labels, milestones and acceptance criteria checked | Verified | None |
 | SUB-01 | Exact existing repository URL supplied | ../README.md | Authenticated API and actual public GitHub page | Verified | Resolve literal-name exception |
-| SUB-01b | Prepared README and planning files published | evidence/remote-verification.json | Original prepared files are published; revised status/report is being published | Pending | Verify updated committed file hashes after publication |
-| SUB-02 | Genuine screenshots of assigned GitHub Issues | evidence/README.md; issue-map.md | Actual assigned Issues exist; refreshed screenshot capture follows publication | Pending | Capture real Issues list and individual assigned Issue |
+| SUB-01b | Prepared README and planning files published | evidence/remote-verification.json | Revised planning artifacts published; live Git tree matches every committed file hash | Verified | None |
+| SUB-02 | Genuine screenshots of assigned GitHub Issues | evidence/github-issues.png; evidence/github-assigned-issue.png; evidence/capture-manifest.json | Actual public GitHub list and A1 Issue #7 captured; Talal assignee and task metadata visible; HTTP 200 and image decode/visual checks | Verified | None |
 | SUB-03 | Editable and exported WBS | wbs.drawio; wbs.csv; wbs-diagram.pdf; wbs-diagram.png | XML hierarchy parse, source-ID checks and visual export review | Verified | None |
-| QA-01 | PDF/XLSX/images/links verified | quality-review.md | Prior 26/26 checks passed; updated exports and final screenshots require refresh | Pending | Record final local checks and visual review |
+| QA-01 | PDF/XLSX/images/links verified | quality-review.md | 26/26 local checks passed; revised 11-page PDF and eight current screenshots visually reviewed; strict live repository checks passed | Verified | None |
 | QA-02 | Later-phase execution excluded | ../requirements/README.md; ../diagrams/README.md; ../ui-prototype/README.md | Folders contain boundary READMEs, not later-phase deliverables | Verified | Await user instruction after reporting Phase 1 blockers |
 | PLAN-01 | Student confirms availability and reviews proposed plan | project-charter.md; responsibility-matrix.md; ../START-HERE.md | Confirmed identity and role assignment; six-hour daily availability and plan acceptance are unconfirmed | Pending | Talal reviews estimates, responsibilities and capacity before baselining |

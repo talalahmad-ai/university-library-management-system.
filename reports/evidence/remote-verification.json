@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-12T18:26:09.213198+00:00",
+  "observed_at_utc": "2026-11-12T18:27:08.734822+00:00",
   "repository": "talalahmad-ai/university-library-management-system.",
   "declared_permissions": {
     "admin": false,
@@ -8,9 +8,16 @@
     "triage": true,
     "pull": true
   },
-  "remote_head": "8ab9e9c89bc7a1f7a9b2f6158fc25e539441cbde",
-  "remote_commit_count": 6,
+  "remote_head": "bcdfe1a7551908f89f6b595964a1ce6fa934e25b",
+  "remote_commit_count": 7,
   "remote_commits": [
+    {
+      "sha": "bcdfe1a7551908f89f6b595964a1ce6fa934e25b",
+      "message": "docs: verify restored access and publish assigned project tracking",
+      "author": "Codex",
+      "authored_at": "2026-11-12T18:26:40Z",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./commit/bcdfe1a7551908f89f6b595964a1ce6fa934e25b"
+    },
     {
       "sha": "8ab9e9c89bc7a1f7a9b2f6158fc25e539441cbde",
       "message": "docs: capture real evidence and finalize the Phase 1 handover",
@@ -76,13 +83,13 @@
     {
       "name": "README.md",
       "type": "file",
-      "sha": "0d40b36e770af7e447c6cb660837f3cd845d4807",
+      "sha": "06f1822ab6c894444b40c98d9b2a3d9447ae68d9",
       "url": "https://github.com/talalahmad-ai/university-library-management-system./blob/main/README.md"
     },
     {
       "name": "START-HERE.md",
       "type": "file",
-      "sha": "280ee61fa5a487b8fd9ba11dcca50e1f2bada7c5",
+      "sha": "a58e5146afb4ebaf1b3a0e21b999a8d5498c745e",
       "url": "https://github.com/talalahmad-ai/university-library-management-system./blob/main/START-HERE.md"
     },
     {
@@ -94,7 +101,7 @@
     {
       "name": "reports",
       "type": "dir",
-      "sha": "a4a5fefe03c2ea0635a07b1dd23a6494aedd4861",
+      "sha": "70f53fc0e8c494624a1da681a3d3ecd12f001e33",
       "url": "https://github.com/talalahmad-ai/university-library-management-system./tree/main/reports"
     },
     {
@@ -106,7 +113,7 @@
     {
       "name": "scripts",
       "type": "dir",
-      "sha": "f38dd368073d8aff0bbc9e6c77de04bafead30f6",
+      "sha": "798a7b8f74f44e32f0b9cdc4f7755d7ee52a93c6",
       "url": "https://github.com/talalahmad-ai/university-library-management-system./tree/main/scripts"
     },
     {
@@ -116,9 +123,9 @@
       "url": "https://github.com/talalahmad-ai/university-library-management-system./tree/main/ui-prototype"
     }
   ],
-  "local_head_at_snapshot": "8ab9e9c89bc7a1f7a9b2f6158fc25e539441cbde",
-  "local_preparation_commits_at_snapshot": 5,
-  "new_preparation_commits_published": 5,
+  "local_head_at_snapshot": "bcdfe1a7551908f89f6b595964a1ce6fa934e25b",
+  "local_preparation_commits_at_snapshot": 6,
+  "new_preparation_commits_published": 6,
   "issue_count": 16,
   "issues": [
     {
@@ -531,7 +538,7 @@
     }
   ],
   "original_history_preserved": true,
-  "committed_file_count_checked": 73,
+  "committed_file_count_checked": 76,
   "committed_file_mismatches": [],
   "required_remote_folders_present": true,
   "publishing_and_tracking_status": "Verified",

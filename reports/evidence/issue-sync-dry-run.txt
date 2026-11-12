@@ -1,0 +1,17 @@
+EXISTS [1.1] Initiation and role allocation → @talalahmad-ai
+EXISTS [1.2] Repository foundation → @talalahmad-ai
+EXISTS [1.3] Project charter and scope → @talalahmad-ai
+EXISTS [1.4] WBS, responsibility and effort → @talalahmad-ai
+EXISTS [1.5] Schedule and Gantt chart → @talalahmad-ai
+EXISTS [1.6] Risk assessment and responses → @talalahmad-ai
+EXISTS [1.7] Issues, commits and A1 evidence review → @talalahmad-ai
+EXISTS [2.1] Stakeholder analysis → @talalahmad-ai
+EXISTS [2.2] Requirements, stories and criteria → @talalahmad-ai
+EXISTS [2.3] SRS, AI review and traceability → @talalahmad-ai
+EXISTS [3.1] Use-case and class diagrams → @talalahmad-ai
+EXISTS [3.2] Borrowing and return UML → @talalahmad-ai
+EXISTS [4.1] Five-screen UI design → @talalahmad-ai
+EXISTS [4.2] Clickable prototype and workflows → @talalahmad-ai
+EXISTS [4.3] Usability testing and improvements → @talalahmad-ai
+EXISTS [4.4] Final QA and submission handover → @talalahmad-ai
+Dry run only. Use --apply after Issues write access is available.

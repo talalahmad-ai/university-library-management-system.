@@ -1,0 +1,73 @@
+{
+  "captured_at_utc": "2026-11-12T18:27:22.250103+00:00",
+  "captures": [
+    {
+      "file": "github-repository.png",
+      "source": "https://github.com/talalahmad-ai/university-library-management-system.",
+      "kind": "Actual public GitHub page; browser not authenticated",
+      "captured_at_utc": "2026-11-12T18:27:13.684163+00:00",
+      "http_status": 200,
+      "title": "GitHub - talalahmad-ai/university-library-management-system.: ASSIGNMENT 01 \u00b7 GitHub",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      }
+    },
+    {
+      "file": "github-readme.png",
+      "source": "https://github.com/talalahmad-ai/university-library-management-system.",
+      "kind": "Actual GitHub-rendered README element",
+      "captured_at_utc": "2026-11-12T18:27:14.064296+00:00",
+      "http_status": 200
+    },
+    {
+      "file": "github-commits.png",
+      "source": "https://github.com/talalahmad-ai/university-library-management-system./commits/main/",
+      "kind": "Actual public GitHub page; browser not authenticated",
+      "captured_at_utc": "2026-11-12T18:27:16.807834+00:00",
+      "http_status": 200,
+      "title": "Commits \u00b7 talalahmad-ai/university-library-management-system. \u00b7 GitHub",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      }
+    },
+    {
+      "file": "github-issues.png",
+      "source": "https://github.com/talalahmad-ai/university-library-management-system./issues",
+      "kind": "Actual public GitHub page; browser not authenticated",
+      "captured_at_utc": "2026-11-12T18:27:19.246426+00:00",
+      "http_status": 200,
+      "title": "Issues \u00b7 talalahmad-ai/university-library-management-system. \u00b7 GitHub",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      }
+    },
+    {
+      "file": "github-assigned-issue.png",
+      "source": "https://github.com/talalahmad-ai/university-library-management-system./issues/7",
+      "kind": "Actual GitHub Issue page",
+      "captured_at_utc": "2026-11-12T18:27:21.662555+00:00",
+      "http_status": 200
+    },
+    {
+      "file": "local-raci.png",
+      "source": "reports/responsibility-matrix.csv",
+      "kind": "Actual browser rendering of local CSV artifact",
+      "captured_at_utc": "2026-11-12T18:27:21.794750+00:00"
+    },
+    {
+      "file": "local-effort.png",
+      "source": "reports/effort-estimates.csv",
+      "kind": "Actual browser rendering of local CSV artifact",
+      "captured_at_utc": "2026-11-12T18:27:21.927311+00:00"
+    },
+    {
+      "file": "local-risks.png",
+      "source": "reports/risk-register.csv",
+      "kind": "Actual browser rendering of local CSV artifact",
+      "captured_at_utc": "2026-11-12T18:27:22.150138+00:00"
+    }
+  ]
+}
