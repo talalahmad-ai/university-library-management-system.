@@ -22,6 +22,7 @@ The user's current request authorizes inspection, Assignment 1 preparation, veri
 4. Starter estimates give task totals but no allocation to each person/role. The revised plan allocates each task's hours to Talal, with a functional-role breakdown. It checks row totals, column totals and the combined daily workload for one person.
 5. Starter risks have mitigations but no distinct contingency actions. The revised register adds triggers, responses and ownership status.
 6. Git 2.52.0 and an authenticated `Hamza-Khaalid` preparation account are available. The URL in the attachments omitted the literal final period; access to that URL failed. The user corrected the name to `university-library-management-system.`. API/CLI checks then verified the public repository and Write access, and cloning succeeded. Its sole original file was README.md and its sole commit was `d6eb07659dd092780801050675d9dbc30f8495ca`. There were zero Issues, no repository rulesets and an unprotected main branch. `talalahmad-ai` is eligible as an assignee. See [baseline inspection](evidence/baseline-inspection.json).
+7. Live Issue creation and label creation returned `403: Resource not accessible by integration`. Both failed again after the user reported a permission update. Repository contents Write permission and owner assignee eligibility do not establish Issues write permission; the live task/evidence requirement remains blocked.
 
 ## Unresolved facts
 

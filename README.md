@@ -70,7 +70,7 @@ Review scope and estimates, confirm deadlines, track assigned Issues without dup
 
 ## Current status and limitations
 
-Assignment 1 documents and evidence are under preparation. Official deadlines and the repository-name discrepancy require confirmation. Consult the [evidence index](reports/evidence/README.md) and [compliance matrix](reports/compliance-matrix.md) for the final verified state of commits, assigned Issues and screenshots. Preparation commits are attributed to Codex and do not assert student participation. Assignments 2–4 are planned only and have not been executed.
+Assignment 1 planning documents, editable sources, exports and task definitions are prepared. Live Issue creation is blocked by `403: Resource not accessible by integration`, including a retry after a reported permission update. Official deadlines and the repository-name discrepancy require confirmation. Consult the [evidence index](reports/evidence/README.md) and [compliance matrix](reports/compliance-matrix.md) for verified commits, screenshots and remaining actions. Preparation commits are attributed to Codex and do not assert student participation. Assignment 1 must not be marked fully complete while assigned Issues and their screenshots are blocked. Assignments 2–4 are planned only and have not been executed.
 
 ## Source and attribution
 

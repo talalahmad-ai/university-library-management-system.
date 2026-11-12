@@ -1,0 +1,28 @@
+# Assignment 1 requirements-to-deliverables compliance
+
+Source: instructor PDF, Assignment 1 (page 1), steps 1–10 and both submission groups (10 + 15 marks). Expanded supporting artifacts are included without executing later phases. **Verified** means the stated evidence was checked; **Pending** needs confirmation or a remaining verification; **Blocked** needs access/intervention. A verified local draft does not prove a live GitHub Issue.
+
+| ID | Requirement | Evidence file | Verification method | Status | Remaining action |
+| --- | --- | --- | --- | --- | --- |
+| A1-01 | GitHub account exists | evidence/baseline-inspection.json | Authenticated helper and existing owner verified | Verified | None |
+| A1-02 | Existing repository is accessible and retained | evidence/baseline-inspection.json | Authenticated API/CLI; real clone; original ancestor | Verified | None |
+| A1-02a | Repository has literal name required by PDF | ../README.md | Compare PDF name to existing trailing-dot name | Pending | Owner/instructor to accept spelling or rename existing repository |
+| A1-03a | README describes project, objectives and actual student | ../README.md | Content review; Talal confirmed by user | Verified | Student review of the prepared text |
+| A1-03b | Scope, assumptions and constraints defined | project-charter.md | Scenario capability and boundary review | Verified | Confirm policy questions in Phase 2 |
+| A1-04a | Dated Gantt and schedule with activities and gates | project-schedule.csv; gantt-chart.pdf; assignment-1-planning.xlsx | Dependency, duration, capacity and export checks | Verified | None for proposed plan |
+| A1-04b | Official submission deadlines confirmed | planning-data.json | All four official_deadlines are null and labeled | Pending | Supply official A1–A4 deadlines and confirm availability |
+| A1-05a | Named responsibility assignment matrix | responsibility-matrix.csv | Talal is the sole A/R on all 16 rows | Verified | Talal to review proposed responsibilities |
+| A1-05b | Effort estimated per task and person | effort-estimates.csv; assignment-1-planning.xlsx | Independent row/column and total checks; base 112 h | Verified | Re-estimate when actual availability is known |
+| A1-06 | Risks assessed with mitigations | risk-register.csv; risk-register.md | 12 risks; valid L×I; named owner; mitigation/contingency | Verified | Monitor high risks and open decisions |
+| A1-07a | Required folders tracked locally | ../requirements/README.md; ../diagrams/README.md; ../ui-prototype/README.md; README.md | Git ls-files for all four top-level folders | Verified | None |
+| A1-07b | Required folders visible remotely | evidence/remote-verification.json | Remote Git tree and genuine repository screenshot | Pending | Verify after pushing |
+| A1-08 | Git installed and actual remote cloned | evidence/baseline-inspection.json | Git 2.52.0 and clone/remote inspection | Verified | None |
+| A1-09a | At least three genuine meaningful new commits | ../README.md | Local Git log; current timestamps; Codex authorship; original preserved | Verified | None locally |
+| A1-09b | Commit history verified on remote | evidence/remote-verification.json | Remote API and fetched origin/main compare | Pending | Publish normal non-forced commits and verify |
+| A1-10a | Issue definition for every major work package | ../.github/issue-plan.json; issue-map.md | 16 unique WBS-linked drafts; actual assignee specified | Verified | Drafts alone do not meet live Issue requirement |
+| A1-10b | Actual GitHub Issue per major task assigned to student | evidence/issue-access-failure.json; issue-map.md | Creation failed HTTP 403 through connector/CLI; retry unchanged | Blocked | Restore effective Issues write access and run sync_github_issues.py --apply |
+| SUB-01 | Repository URL and readable README supplied | ../README.md | Verified exact trailing-dot URL and local README | Verified | Resolve literal-name exception |
+| SUB-02 | Genuine screenshots of assigned GitHub Issues | evidence/issue-access-failure.json | No live assigned Issue exists to capture | Blocked | Create actual assigned Issues, capture list and individual Issue |
+| SUB-03 | Editable and exported WBS | wbs.drawio; wbs.csv; wbs-diagram.pdf; wbs-diagram.png | XML hierarchy parse, source-ID checks and visual export review | Verified | None |
+| QA-01 | PDF/XLSX/images/links verified | quality-review.md | Automated artifact validation plus visual inspection | Pending | Complete final validation and record output |
+| QA-02 | Later-phase execution excluded | ../requirements/README.md; ../diagrams/README.md; ../ui-prototype/README.md | Folders contain boundary READMEs, not later-phase deliverables | Verified | Await user instruction after reporting Phase 1 blockers |

@@ -20,7 +20,7 @@ def duration(t):
 
 def csvfile(name, headers, rows):
     with (REPORTS / name).open('w', newline='', encoding='utf-8') as f:
-        w = csv.writer(f); w.writerow(headers); w.writerows(rows)
+        w = csv.writer(f, lineterminator='\n'); w.writerow(headers); w.writerows(rows)
 
 def table(headers, rows):
     def clean(x):

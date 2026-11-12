@@ -51,7 +51,7 @@ The project also includes planning, requirements documentation, UML, a clickable
 | C02 | Constraint | Full LMS implementation is unnecessary; effort is limited to the specified academic artifacts. |
 | C03 | Constraint | Existing remote history and legitimate work must be preserved; no forced push or impersonated authorship. |
 | C04 | Constraint | Use synthetic examples only; no credentials, private records or invented participation in evidence. |
-| D01 | Dependency | Repository Write permission, Issues and valid assignee eligibility are needed for GitHub evidence; initial checks passed. |
+| D01 | Dependency | Repository Write permission and valid assignee eligibility passed initial checks. Live Issue creation is still blocked by the integration's HTTP 403; that separate Issues write permission must be resolved. |
 | D02 | Dependency | Official dates and the repository-name exception need owner/instructor resolution before submission approval. |
 | D03 | Dependency | SRS review precedes dependent UML and UI work; UML review and screen designs precede prototype linking. |
 | D04 | Dependency | Later prototype testing depends on actual classmates and a shareable clickable file; Phase 1 does not claim those exist. |
