@@ -33,7 +33,7 @@ The user confirmed Talal Ahmad and his GitHub username. This plan uses one stude
 
 Intended repository: <https://github.com/talalahmad-ai/university-library-management-system.>
 
-The repository name has a literal trailing period. After the user corrected the URL, authenticated reads and cloning succeeded, and GitHub reported repository Write permission. Effective writes are nevertheless restricted: pushing, the connector's Git data API, and Issue creation returned HTTP 403. The remote still contains its original README and commit `d6eb076`; prepared changes are local. That original history is retained. The owner is `talalahmad-ai`. No replacement repository was created. The supplied starter ZIP was inspected separately before integration. The existing name differs from the PDF's literal requested name by its final period; confirm with the instructor or have the owner rename it before submission if exact spelling is enforced.
+The repository name has a literal trailing period. Talal owns this personal repository; `Hamza-Khaalid` has collaborator Write access. Initial writes returned HTTP 403 because the connection had no installation under Talal. After the user installed `chatgpt-codex-connector` on Talal's account, normal Git push and real Issue creation succeeded. The original commit `d6eb076` is preserved. No replacement repository was created. The supplied starter ZIP was inspected before integration. The existing name differs from the PDF's literal requested name by its final period; confirm with the instructor or have the owner rename it before submission if exact spelling is enforced.
 
 ## Structure and document links
 
@@ -70,7 +70,7 @@ Review scope and estimates, confirm deadlines, track assigned Issues without dup
 
 ## Current status and limitations
 
-Assignment 1 planning documents, editable sources, exports and task definitions are prepared locally. Publishing and live Issue creation are blocked by HTTP 403, including Issue retries after a reported permission update. Official deadlines and the repository-name discrepancy require confirmation. Consult the [evidence index](reports/evidence/README.md) and [compliance matrix](reports/compliance-matrix.md) for verified local artifacts, actual remote state and remaining actions. Preparation commits are attributed to Codex and do not assert student participation. Assignment 1 must not be marked fully complete until the changes and genuine commits are published, assigned Issues exist and their screenshots are captured. Assignments 2–4 are planned only and have not been executed.
+Assignment 1 planning documents, editable sources and exports are published. There are [16 real task Issues](https://github.com/talalahmad-ai/university-library-management-system./issues), each assigned to `talalahmad-ai`, with phase labels and one of four milestones. Milestone descriptions contain proposed targets; official due dates are unset. Issues remain open for student review. Consult the [evidence index](reports/evidence/README.md), [Issue map](reports/issue-map.md) and [compliance matrix](reports/compliance-matrix.md) for checked remote history, genuine screenshots and remaining confirmations. Preparation commits are attributed to Codex and do not assert student participation. Official deadlines, actual availability and the repository-name exception remain Pending. Assignments 2–4 are planned only and have not been executed.
 
 ## Source and attribution
 

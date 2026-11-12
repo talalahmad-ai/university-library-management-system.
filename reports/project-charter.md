@@ -1,7 +1,7 @@
 # Project charter and scope
 
 **Project:** University Library Management System (LMS)  
-**Version:** 1.0 · 12 November 2026 · Phase 1 planning baseline proposed for review  
+**Version:** 1.1 · 12 November 2026 · Phase 1 planning baseline proposed for review  
 **Student / repository owner:** Talal Ahmad (`talalahmad-ai`)  
 **University / department:** Not supplied  
 **Repository:** <https://github.com/talalahmad-ai/university-library-management-system.>
@@ -51,7 +51,7 @@ The project also includes planning, requirements documentation, UML, a clickable
 | C02 | Constraint | Full LMS implementation is unnecessary; effort is limited to the specified academic artifacts. |
 | C03 | Constraint | Existing remote history and legitimate work must be preserved; no forced push or impersonated authorship. |
 | C04 | Constraint | Use synthetic examples only; no credentials, private records or invented participation in evidence. |
-| D01 | Dependency | Repository metadata reports Write permission and assignee eligibility passed. Effective Git push, Git data API writes and Issue creation return HTTP 403; Contents and Issues write access must be resolved. |
+| D01 | Dependency | The connected app is now installed under Talal with Contents and Issues write permission. Normal Git push succeeded and 16 real Issues were created with Talal as assignee. Monitor effective access at future gates. |
 | D02 | Dependency | Official dates and the repository-name exception need owner/instructor resolution before submission approval. |
 | D03 | Dependency | SRS review precedes dependent UML and UI work; UML review and screen designs precede prototype linking. |
 | D04 | Dependency | Later prototype testing depends on actual classmates and a shareable clickable file; Phase 1 does not claim those exist. |
@@ -66,7 +66,7 @@ Review the plan at each milestone. Record a requested change, its reason, affect
 
 The [effort table](responsibility-matrix.md) allocates 112 base person-hours to Talal across 16 leaf work packages. A 15% estimate reserve is 16.8 hours, for a planning envelope of 128.8 hours. The reserve is unallocated effort, not additional work already scheduled or a claim of calendar float. A delay still requires dependency/capacity review.
 
-Review the [risk register](risk-register.md) at kickoff and at each phase gate. Effective GitHub write access failure is the highest-priority realized issue (25), followed by ambiguous policies and unknown official deadlines (16 each). The user's trailing-dot correction resolved the URL problem, but Git push, Git data writes and Issue creation remain blocked by HTTP 403.
+Review the [risk register](risk-register.md) at kickoff and at each phase gate. Ambiguous policies and unknown official deadlines are the highest remaining scores (16 each). R03's initial access issue (25) was resolved by installing the connector under Talal; successful push and Issue creation verify the control. Its residual score is 10 (2 × 5), monitored at future gates. The URL and repository-name exception are separate matters.
 
 Assignment 1 is ready for academic review when all official deliverables and genuine remote evidence pass the [compliance matrix](compliance-matrix.md), with any permitted exceptions disclosed. The owner must confirm deadlines/availability and resolve the literal repository-name difference. Preparation completion is distinct from student review or instructor acceptance.
 
@@ -75,3 +75,4 @@ Assignment 1 is ready for academic review when all official deliverables and gen
 | Version | Date | Change | Attribution |
 |---|---|---|---|
 | 1.0 | 12 November 2026 | Phase 1 plan, named one-student allocation, corrected remote URL and verification approach | Codex-assisted preparation; Talal confirmed by user |
+| 1.1 | 12 November 2026 | Owner app installation verified; preserved commits published; 16 assigned Issues and four milestones created; residual access risk revised | Codex-assisted preparation through authorized collaborator |

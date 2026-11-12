@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-12T17:50:05.818557+00:00",
+  "observed_at_utc": "2026-11-12T18:26:09.213198+00:00",
   "repository": "talalahmad-ai/university-library-management-system.",
   "declared_permissions": {
     "admin": false,
@@ -8,9 +8,44 @@
     "triage": true,
     "pull": true
   },
-  "remote_head": "d6eb07659dd092780801050675d9dbc30f8495ca",
-  "remote_commit_count": 1,
+  "remote_head": "8ab9e9c89bc7a1f7a9b2f6158fc25e539441cbde",
+  "remote_commit_count": 6,
   "remote_commits": [
+    {
+      "sha": "8ab9e9c89bc7a1f7a9b2f6158fc25e539441cbde",
+      "message": "docs: capture real evidence and finalize the Phase 1 handover",
+      "author": "Codex",
+      "authored_at": "2026-11-12T17:51:51Z",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./commit/8ab9e9c89bc7a1f7a9b2f6158fc25e539441cbde"
+    },
+    {
+      "sha": "d9c248eadea65e03b10ebc62b4374e2fa868b212",
+      "message": "docs: audit Assignment 1 artifacts and document the Issues access blocker",
+      "author": "Codex",
+      "authored_at": "2026-11-12T17:40:24Z",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./commit/d9c248eadea65e03b10ebc62b4374e2fa868b212"
+    },
+    {
+      "sha": "7808701065207c534eca00bac4827294ac32b828",
+      "message": "docs: export planning workbook, charts and Assignment 1 report",
+      "author": "Codex",
+      "authored_at": "2026-11-12T17:32:47Z",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./commit/7808701065207c534eca00bac4827294ac32b828"
+    },
+    {
+      "sha": "3f8eedae02be67ae73bd8f9dbdfdafd5affe72a9",
+      "message": "docs: add charter, named work allocation and dependency-based project plan",
+      "author": "Codex",
+      "authored_at": "2026-11-12T17:24:41Z",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./commit/3f8eedae02be67ae73bd8f9dbdfdafd5affe72a9"
+    },
+    {
+      "sha": "4a99e39dbefd0582a6639166ce45037957c37b40",
+      "message": "docs: establish Assignment 1 scope and tracked project folders",
+      "author": "Codex",
+      "authored_at": "2026-11-12T17:21:25Z",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./commit/4a99e39dbefd0582a6639166ce45037957c37b40"
+    },
     {
       "sha": "d6eb07659dd092780801050675d9dbc30f8495ca",
       "message": "Initial commit",
@@ -21,100 +56,484 @@
   ],
   "remote_root": [
     {
+      "name": ".gitattributes",
+      "type": "file",
+      "sha": "c2645a8048e3b01233ce3bc3594babf8c5c2aa98",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./blob/main/.gitattributes"
+    },
+    {
+      "name": ".github",
+      "type": "dir",
+      "sha": "7fcf027ea3e6338008c8f62016b6a23d9f4d7a26",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./tree/main/.github"
+    },
+    {
+      "name": ".gitignore",
+      "type": "file",
+      "sha": "1c3297fd2448a95ba7afab97853c165f4876b951",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./blob/main/.gitignore"
+    },
+    {
       "name": "README.md",
       "type": "file",
-      "sha": "c16c0f27cab63b93d6ba54487f2450830c59d002",
+      "sha": "0d40b36e770af7e447c6cb660837f3cd845d4807",
       "url": "https://github.com/talalahmad-ai/university-library-management-system./blob/main/README.md"
+    },
+    {
+      "name": "START-HERE.md",
+      "type": "file",
+      "sha": "280ee61fa5a487b8fd9ba11dcca50e1f2bada7c5",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./blob/main/START-HERE.md"
+    },
+    {
+      "name": "diagrams",
+      "type": "dir",
+      "sha": "d423ecdc5b5bb780f55240cf0c59f99bbee000d6",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./tree/main/diagrams"
+    },
+    {
+      "name": "reports",
+      "type": "dir",
+      "sha": "a4a5fefe03c2ea0635a07b1dd23a6494aedd4861",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./tree/main/reports"
+    },
+    {
+      "name": "requirements",
+      "type": "dir",
+      "sha": "7f4a9b1b78b2b15f75f28509abce70a3f9af56c1",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./tree/main/requirements"
+    },
+    {
+      "name": "scripts",
+      "type": "dir",
+      "sha": "f38dd368073d8aff0bbc9e6c77de04bafead30f6",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./tree/main/scripts"
+    },
+    {
+      "name": "ui-prototype",
+      "type": "dir",
+      "sha": "9af4fe04b531baa2966497b052a4ce28efe76254",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./tree/main/ui-prototype"
     }
   ],
-  "local_head_at_snapshot": "d9c248eadea65e03b10ebc62b4374e2fa868b212",
-  "local_preparation_commits_at_snapshot": 4,
-  "new_preparation_commits_published": 0,
-  "issue_count": 0,
-  "issues": [],
+  "local_head_at_snapshot": "8ab9e9c89bc7a1f7a9b2f6158fc25e539441cbde",
+  "local_preparation_commits_at_snapshot": 5,
+  "new_preparation_commits_published": 5,
+  "issue_count": 16,
+  "issues": [
+    {
+      "number": 16,
+      "title": "[4.4] Final QA and submission handover",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/16",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-4",
+        "future-phase"
+      ],
+      "milestone": "A4 \u2014 Prototype and final submission readiness",
+      "milestone_number": 4
+    },
+    {
+      "number": 15,
+      "title": "[4.3] Usability testing and improvements",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/15",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-4",
+        "future-phase"
+      ],
+      "milestone": "A4 \u2014 Prototype and final submission readiness",
+      "milestone_number": 4
+    },
+    {
+      "number": 14,
+      "title": "[4.2] Clickable prototype and workflows",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/14",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-4",
+        "future-phase"
+      ],
+      "milestone": "A4 \u2014 Prototype and final submission readiness",
+      "milestone_number": 4
+    },
+    {
+      "number": 13,
+      "title": "[4.1] Five-screen UI design",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/13",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-4",
+        "future-phase"
+      ],
+      "milestone": "A4 \u2014 Prototype and final submission readiness",
+      "milestone_number": 4
+    },
+    {
+      "number": 12,
+      "title": "[3.2] Borrowing and return UML",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/12",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-3",
+        "future-phase"
+      ],
+      "milestone": "A3 \u2014 Four UML models reviewed",
+      "milestone_number": 3
+    },
+    {
+      "number": 11,
+      "title": "[3.1] Use-case and class diagrams",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/11",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-3",
+        "future-phase"
+      ],
+      "milestone": "A3 \u2014 Four UML models reviewed",
+      "milestone_number": 3
+    },
+    {
+      "number": 10,
+      "title": "[2.3] SRS, AI review and traceability",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/10",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-2",
+        "future-phase"
+      ],
+      "milestone": "A2 \u2014 Requirements and SRS baseline",
+      "milestone_number": 2
+    },
+    {
+      "number": 9,
+      "title": "[2.2] Requirements, stories and criteria",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/9",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-2",
+        "future-phase"
+      ],
+      "milestone": "A2 \u2014 Requirements and SRS baseline",
+      "milestone_number": 2
+    },
+    {
+      "number": 8,
+      "title": "[2.1] Stakeholder analysis",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/8",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-2",
+        "future-phase"
+      ],
+      "milestone": "A2 \u2014 Requirements and SRS baseline",
+      "milestone_number": 2
+    },
+    {
+      "number": 7,
+      "title": "[1.7] Issues, commits and A1 evidence review",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/7",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-1",
+        "planning"
+      ],
+      "milestone": "A1 \u2014 Assignment 1 planning and GitHub review",
+      "milestone_number": 1
+    },
+    {
+      "number": 6,
+      "title": "[1.6] Risk assessment and responses",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/6",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-1",
+        "planning"
+      ],
+      "milestone": "A1 \u2014 Assignment 1 planning and GitHub review",
+      "milestone_number": 1
+    },
+    {
+      "number": 5,
+      "title": "[1.5] Schedule and Gantt chart",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/5",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-1",
+        "planning"
+      ],
+      "milestone": "A1 \u2014 Assignment 1 planning and GitHub review",
+      "milestone_number": 1
+    },
+    {
+      "number": 4,
+      "title": "[1.4] WBS, responsibility and effort",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/4",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-1",
+        "planning"
+      ],
+      "milestone": "A1 \u2014 Assignment 1 planning and GitHub review",
+      "milestone_number": 1
+    },
+    {
+      "number": 3,
+      "title": "[1.3] Project charter and scope",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/3",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-1",
+        "planning"
+      ],
+      "milestone": "A1 \u2014 Assignment 1 planning and GitHub review",
+      "milestone_number": 1
+    },
+    {
+      "number": 2,
+      "title": "[1.2] Repository foundation",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/2",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-1",
+        "planning"
+      ],
+      "milestone": "A1 \u2014 Assignment 1 planning and GitHub review",
+      "milestone_number": 1
+    },
+    {
+      "number": 1,
+      "title": "[1.1] Initiation and role allocation",
+      "url": "https://github.com/talalahmad-ai/university-library-management-system./issues/1",
+      "state": "open",
+      "assignees": [
+        "talalahmad-ai"
+      ],
+      "labels": [
+        "documentation",
+        "assignment-1",
+        "planning"
+      ],
+      "milestone": "A1 \u2014 Assignment 1 planning and GitHub review",
+      "milestone_number": 1
+    }
+  ],
   "task_issue_checks": [
     {
       "wbs": "1.1",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "1.2",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "1.3",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "1.4",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "1.5",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "1.6",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "1.7",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "2.1",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "2.2",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "2.3",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "3.1",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "3.2",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "4.1",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "4.2",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "4.3",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     },
     {
       "wbs": "4.4",
-      "issue_count": 0,
-      "assigned_correctly": false
+      "issue_count": 1,
+      "assigned_correctly": true,
+      "labels_correct": true,
+      "milestone_correct": true,
+      "acceptance_criteria_present": true
     }
   ],
-  "required_remote_folders_present": false,
-  "publishing_and_tracking_status": "Blocked",
+  "milestone_checks": [
+    {
+      "phase": "A1",
+      "count": 1,
+      "official_deadline_honest": true
+    },
+    {
+      "phase": "A2",
+      "count": 1,
+      "official_deadline_honest": true
+    },
+    {
+      "phase": "A3",
+      "count": 1,
+      "official_deadline_honest": true
+    },
+    {
+      "phase": "A4",
+      "count": 1,
+      "official_deadline_honest": true
+    }
+  ],
+  "original_history_preserved": true,
+  "committed_file_count_checked": 73,
+  "committed_file_mismatches": [],
+  "required_remote_folders_present": true,
+  "publishing_and_tracking_status": "Verified",
   "note": "This is a real snapshot, not proof of later publication. Repository permission metadata does not prove effective write access. Official dates, name exception and student review remain separate gates. Snapshot necessarily precedes the commit that stores this record."
 }

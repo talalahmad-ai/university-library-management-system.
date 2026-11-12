@@ -10,5 +10,10 @@
     "message": "Resource not accessible by integration"
   },
   "published_new_commits": 0,
-  "remaining_action": "Grant effective repository Contents write permission to the connected GitHub App, or publish the included bundle using an authorized account."
+  "remaining_action": "Grant effective repository Contents write permission to the connected GitHub App, or publish the included bundle using an authorized account.",
+  "resolution": {
+    "status": "Resolved",
+    "observed_at_utc": "2026-11-12T18:26:03.711384+00:00",
+    "record": "access-resolution.json"
+  }
 }

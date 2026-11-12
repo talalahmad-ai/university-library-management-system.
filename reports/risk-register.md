@@ -6,7 +6,7 @@
 
 Likelihood: 1 rare, 2 unlikely, 3 possible, 4 likely, 5 almost certain. Impact: 1 negligible rework, 2 minor rework, 3 material task delay, 4 phase-gate threat, 5 inability to meet a mandatory submission element. Score = likelihood × impact; 1–5 Low, 6–14 Medium, 15–25 High. These are qualitative planning judgments, not measured probabilities. Review High risks at each work session and all risks at phase gates or when a trigger occurs. Talal owns mitigation and contingency decisions.
 
-**High priority:** R03 (25, effective write access failure), R01 (16, ambiguous policies) and R05 (16, official deadlines unknown). The original URL problem was resolved by the corrected trailing-dot URL. R03 is now a realized issue: Git push, Git data writes and Issue creation return HTTP 403. The literal repository-name mismatch is a current open decision tracked by R12.
+**High priority:** R01 (16, ambiguous policies) and R05 (16, official deadlines unknown). The initial URL problem was resolved by the corrected trailing-dot URL. R03 was initially a realized access issue scored 25; installing the connector under Talal restored writes, verified by normal Git push and 16 assigned Issues. Its residual likelihood is now 2, impact 5, score 10; monitor at future gates. The literal repository-name mismatch is a current open decision tracked by R12.
 
 ## R01 — Ambiguous lending and reservation policies
 
@@ -26,10 +26,10 @@ Likelihood **3** · Impact **4** · Score **12** · Medium · Monitoring role: L
 
 ## R03 — Repository URL or effective write access fails
 
-Likelihood **5** · Impact **5** · Score **25** · High · Monitoring role: Lead
+Likelihood **2** · Impact **5** · Score **10** · Medium · Monitoring role: Lead
 
-- Trigger: Push, Git data write or Issue creation returns an access error; currently triggered by HTTP 403.
-- Mitigation: Use the verified trailing-dot URL; verify effective Contents and Issues write access rather than repository role alone; retain the local Git bundle.
+- Trigger: A future push or Issue operation returns an access error; initial HTTP 403 issue is resolved.
+- Mitigation: Use the verified trailing-dot URL; owner connector installation and successful Git push/Issue creation now verify effective access; check again at each gate.
 - Contingency: Owner restores app access or publishes from an authorized CLI account; retain local commits and package without creating a replacement remote.
 
 ## R04 — Student unavailable during a critical work package

@@ -112,8 +112,8 @@ def build_tables():
     risk += 'Impact: 1 negligible rework, 2 minor rework, 3 material task delay, 4 phase-gate threat, 5 inability to meet a mandatory submission element. '
     risk += 'Score = likelihood × impact; 1–5 Low, 6–14 Medium, 15–25 High. These are qualitative planning judgments, not measured probabilities. '
     risk += 'Review High risks at each work session and all risks at phase gates or when a trigger occurs. Talal owns mitigation and contingency decisions.\n\n'
-    risk += '**High priority:** R03 (25, effective write access failure), R01 (16, ambiguous policies) and R05 (16, official deadlines unknown). '
-    risk += 'The original URL problem was resolved by the corrected trailing-dot URL. R03 is now a realized issue: Git push, Git data writes and Issue creation return HTTP 403. '
+    risk += '**High priority:** R01 (16, ambiguous policies) and R05 (16, official deadlines unknown). '
+    risk += 'The initial URL problem was resolved by the corrected trailing-dot URL. R03 was initially a realized access issue scored 25; installing the connector under Talal restored writes, verified by normal Git push and 16 assigned Issues. Its residual likelihood is now 2, impact 5, score 10; monitor at future gates. '
     risk += 'The literal repository-name mismatch is a current open decision tracked by R12.\n\n'
     for r in DATA['risks']:
         score=r['likelihood']*r['impact']

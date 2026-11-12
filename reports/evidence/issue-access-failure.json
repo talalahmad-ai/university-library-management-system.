@@ -15,5 +15,10 @@
   },
   "retry_after_user_reported_permission_update": "Same 403 from both connector and a fresh CLI process",
   "live_issues_created": 0,
-  "remaining_action": "Use a GitHub connection with effective Issues read/write access; scripts/sync_github_issues.py --apply creates the prepared task Issues without duplicates."
+  "remaining_action": "Use a GitHub connection with effective Issues read/write access; scripts/sync_github_issues.py --apply creates the prepared task Issues without duplicates.",
+  "resolution": {
+    "status": "Resolved",
+    "observed_at_utc": "2026-11-12T18:26:03.711384+00:00",
+    "record": "access-resolution.json"
+  }
 }

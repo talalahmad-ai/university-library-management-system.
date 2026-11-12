@@ -1,0 +1,25 @@
+{
+  "observed_at_utc": "2026-11-12T18:26:03.711384+00:00",
+  "repository": "talalahmad-ai/university-library-management-system.",
+  "owner": "talalahmad-ai",
+  "authorized_collaborator": "Hamza-Khaalid",
+  "app_slug": "chatgpt-codex-connector",
+  "installation_id": 181339474,
+  "permissions": {
+    "contents": "write",
+    "issues": "write",
+    "metadata": "read"
+  },
+  "normal_git_push_succeeded": true,
+  "published_preparation_head_at_first_success": "8ab9e9c89bc7a1f7a9b2f6158fc25e539441cbde",
+  "original_owner_commit_preserved": "d6eb07659dd092780801050675d9dbc30f8495ca",
+  "verified_assigned_task_issues": 16,
+  "milestones_created": 4,
+  "official_due_dates_set": false,
+  "status": "Verified",
+  "historical_failures": [
+    "issue-access-failure.json",
+    "publish-access-failure.json"
+  ],
+  "note": "Owner app installation resolved the earlier access failure. Current live state is verified separately; earlier errors remain historical evidence."
+}

@@ -36,7 +36,7 @@ with sync_playwright() as p:
     if remote.exists():
         data=json.loads(remote.read_text());issues=data.get('issues',[])
         if issues:
-            issue=issues[0];url=issue.get('url') or issue.get('html_url')
+            issue=next((x for x in issues if x.get('title','').startswith('[1.')),issues[0]);url=issue.get('url') or issue.get('html_url')
             if url:
                 response=page.goto(url,wait_until='domcontentloaded',timeout=60000);page.wait_for_timeout(1200)
                 page.screenshot(path=str(E/'github-assigned-issue.png'),full_page=True)
