@@ -1,0 +1,43 @@
+5. User stories and acceptance criteria
+Each acceptance criterion describes an expected result, not an executed test. Dates in
+examples use 2026.
+US-01
+As a student, I want to sign in, so that I can use the library with my own account.
+AC-01a: Given an active student account and correct credentials, sign-in opens the student
+dashboard. Wrong credentials or an inactive account are rejected.
+AC-01b: Inspect the stored account and sign-in logs: only a salted adaptive hash is stored,
+and no plaintext password appears in either logs or screens.
+US-02
+As a student, I want to search for books and check their availability, so that I know whether I
+can borrow them.
+AC-02a: Search a sample catalog using a known title, author and ISBN separately; each
+search returns its matching book. An unmatched query shows a no-results message.
+AC-02b: A book with 3 active copies (1 on loan, 1 held, 1 free) shows the correct title,
+author, ISBN, total of 3 and available count of 1.
+AC-02c: With 1,000 books and 20 concurrent users, at least 95 of 100 searches finish
+within 2 seconds.
+AC-02d: At least 4 of 5 first-time users find a specified book and its available count within
+60 seconds without help.
+US-03
+As a librarian, I want to maintain book and copy records, so that the catalog stays correct.
+AC-03a: Add a book and two copies with distinct IDs, then edit its title; the updated title
+appears in the catalog and a duplicate copy ID is rejected.
+AC-03b: Retiring a free copy succeeds and removes it from active availability; retiring an
+on-loan or held copy is rejected.
+US-04
+As a librarian, I want to manage membership records, so that only eligible members can
+borrow books.
+AC-04a: Register one student and one faculty member with distinct university IDs; both
+records can be viewed, and a duplicate ID is rejected.
+AC-04b: Deactivate a member, verify that the status changes to inactive, and reactivate the
+member; the status returns to active.
+US-05
+As a librarian, I want to issue books with the correct due date, so that loans can be tracked.
+AC-05a: On 25 November, issue a free copy to an eligible student and another to eligible
+faculty; due dates are 9 December and 23 December respectively under the proposed rules.
+Each loan stores the four required fields and the copy becomes unavailable.
+AC-05b: Attempt an issue to an inactive member, a student with 3 open loans, a member
+with an overdue loan, or a member trying to take another member’s held copy; each attempt
+is rejected with a reason and no loan is created.
+AC-05c: Two simultaneous requests for the same free copy result in exactly one successful
+issue and one open loan; no active hold remains on that copy
