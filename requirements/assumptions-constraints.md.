@@ -1,0 +1,23 @@
+4. Assumptions and constraints
+The numerical policy values are proposed for the coursework. They are not confirmed
+university rules.
+ID Type Description
+A-01 Assumption
+Students may borrow up to 3 copies for 14 calendar days; faculty up
+to 5 copies for 28 days. An active overdue loan prevents further
+borrowing.
+A-02 Assumption
+Reservations use first-in, first-out order by request timestamp (ties
+by reservation ID). Only active members below their current limit
+and without overdue loans qualify for a hold. Proposed hold
+duration: 48 hours.
+A-03 Assumption
+Overdue begins the day after the due date. One notice is shown
+inside the LMS for each overdue loan. No fine amounts are
+calculated; penalty rules are not confirmed.
+C-01 Constraint
+Coursework covers analysis, UML and a clickable UI, not a
+complete working system. Production hosting, live messaging,
+payment processing, SSO and live record migration are excluded.
+C-02 Constraint Only fictional demonstration data may be used; the system design
+must not expose real student, faculty or staff records.
