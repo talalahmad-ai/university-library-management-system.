@@ -1,0 +1,177 @@
+Software Requirements Specification (SRS)
+University Library Management System
+Version: 1.0
+Project: University Library Management System
+Prepared by: Talal Ahmad
+Project Type: Academic Software Engineering Project
+Revision History
+Version	Date	Description
+1.0	26 November 2026	Initial SRS document
+
+
+Table of Contents
+1. Introduction
+2. Overall System Description
+3. Functional Requirements
+4. Non-Functional Requirements
+5. External Interface Requirements
+6. Assumptions, Constraints and Dependencies
+7. Acceptance Criteria
+8. Requirement Priorities
+9. Traceability
+10. Conclusion
+1. Introduction
+1.1 Purpose
+The purpose of this document is to define the requirements of the University Library Management System. It describes the system's functionality, users, limitations, interfaces and quality requirements. This document will guide the future design and development of the system.
+1.2 Scope
+The University Library Management System is intended to help a university library manage its book catalog, book borrowing, returns, reservations, user accounts and overdue books.
+
+The system will allow students and faculty members to search for books and check their availability. Librarians will manage book records, borrowing and returns, while administrators will manage user accounts and system access.
+
+The academic project focuses on requirements analysis, system design, UML and UI prototyping. A complete production system is not required.
+1.3 Definitions
+- SRS: Software Requirements Specification.
+- FR: Functional Requirement.
+- NFR: Non-Functional Requirement.
+- Stakeholder: A person or group affected by the system.
+- Acceptance Criteria: Conditions used to determine whether a requirement or feature is satisfied.
+- ISBN: International Standard Book Number used to identify books.
+2. Overall System Description
+2.1 Product Perspective
+The University Library Management System is a proposed software solution for organizing university library operations. It aims to reduce manual work, improve book availability tracking and provide an organized way to manage library records.
+2.2 Stakeholders
+Stakeholder	Description
+Student	Searches, checks availability and borrows or reserves books.
+Faculty Member	Searches and borrows academic books.
+Librarian	Manages books, borrowing, returns and reservations.
+Library Administrator	Manages user accounts, permissions and library operations.
+
+
+2.3 System Features
+The system is expected to provide the following features:
+- User login and access control.
+- Book searching and availability checking.
+- Book catalog management.
+- Borrowing and return management.
+- Due date management.
+- Book reservation management.
+- Overdue book identification.
+- User account management.
+- Borrowing history.
+2.4 User Characteristics
+- Students and faculty members will use the system to search and access library resources.
+- Librarians will use management functions for daily library activities.
+- Administrators will manage accounts, permissions and system operations.
+Users are expected to have basic computer and internet usage skills.
+3. Functional Requirements
+FR-01 — User Login
+The system shall allow registered students, faculty members, librarians and library administrators to log in using their credentials.
+FR-02 — Book Search
+The system shall allow users to search for books by title, author, ISBN or category.
+FR-03 — Book Availability
+The system shall display the availability status of each book, including whether available or currently borrowed.
+FR-04 — Book Record Management
+The system shall allow librarians to add, update and remove book records from the catalog.
+FR-05 — Book Borrowing
+The system shall allow librarians to issue available books to registered library members.
+FR-06 — Book Return
+The system shall allow librarians to record return of borrowed books.
+FR-07 — Due Date Management
+The system shall assign a due date to each borrowed book according to applicable borrowing policy.
+FR-08 — Book Reservation
+The system shall allow registered users to reserve books currently unavailable.
+FR-09 — Reservation Management
+The system shall allow librarians to view and manage book reservations.
+FR-10 — Overdue Book Identification
+The system shall identify borrowed books whose due dates have passed and mark them as overdue.
+FR-11 — User Management
+The system shall allow library administrators to create, update and manage library user accounts.
+FR-12 — Borrowing History
+The system shall allow library staff to view borrowing and return history of registered library members.
+4. Non-Functional Requirements
+NFR-01 — Performance
+The system shall display search results within 3 seconds under normal operating conditions.
+NFR-02 — Security
+The system shall restrict access to administrative and librarian functions to authorized users.
+NFR-03 — Usability
+The system shall provide a user interface that allows users to access book search and availability information within a maximum of three navigation steps from the main dashboard.
+NFR-04 — Reliability
+The system shall maintain accurate borrowing, return and reservation records during normal operation.
+NFR-05 — Compatibility
+The system shall support access through the latest stable versions of Google Chrome, Microsoft Edge and Mozilla Firefox.
+NFR-06 — Data Backup
+The system shall support daily backups of library records to allow data recovery in case of data loss.
+5. External Interface Requirements
+5.1 User Interface
+The system shall provide an interface that allows users to access features according to their assigned roles.
+
+The proposed interface should include:
+- Login page.
+- Main dashboard.
+- Book search page.
+- Book availability page.
+- Borrowing and return management page.
+- Reservation management page.
+- User management page.
+5.2 Hardware Interface
+The system is expected to be accessed through computers or laptops connected to the internet. No specialized hardware is required for the academic prototype.
+5.3 Software Interface
+The proposed system shall be accessible through supported web browsers. Specific backend technologies, database software and deployment tools have not yet been selected.
+5.4 Communication Interface
+The proposed system will require an internet connection for accessing online library services.
+6. Assumptions, Constraints and Dependencies
+6.1 Assumptions
+- A-01: Students and faculty members will have valid university identification or registration details to access library services.
+- A-02: The library will provide accurate book information, including titles, authors, ISBNs and available copies.
+- A-03: The library will establish borrowing periods, renewal rules and reservation policies before implementation.
+6.2 Constraints
+- C-01: The system will require an internet connection for users to access online library services.
+- C-02: The academic project is limited to requirements analysis, system design, UML and UI prototyping. A complete production system is not required.
+- C-03: Students and faculty members will have limited access to library functions, while librarians and administrators will have management access according to their permissions.
+6.3 Dependencies
+- The system depends on accurate library catalog data.
+- Borrowing and reservation functionality depends on confirmed library policies.
+- User management depends on the availability of valid user registration information.
+7. Acceptance Criteria
+The system's requirements will be evaluated using the acceptance criteria documented in requirements/acceptance-criteria.md.
+
+The major acceptance conditions include:
+- Users can search for books using supported search fields.
+- Book availability is displayed correctly.
+- Librarians can issue and return books.
+- Borrowing records contain borrowing and due dates.
+- Registered users can reserve unavailable books.
+- Librarians can manage book records and reservations.
+- Administrators can manage user accounts and access permissions.
+8. Requirement Priorities
+Requirement	Priority
+FR-01 User Login	High
+FR-02 Book Search	High
+FR-03 Book Availability	High
+FR-04 Book Record Management	High
+FR-05 Book Borrowing	High
+FR-06 Book Return	High
+FR-07 Due Date Management	High
+FR-08 Book Reservation	Medium
+FR-09 Reservation Management	Medium
+FR-10 Overdue Book Identification	Medium
+FR-11 User Management	High
+FR-12 Borrowing History	Medium
+NFR-01 Performance	High
+NFR-02 Security	High
+NFR-03 Usability	Medium
+NFR-04 Reliability	High
+NFR-05 Compatibility	Medium
+NFR-06 Data Backup	Medium
+
+
+9. Traceability
+Requirements will be linked to their corresponding user stories and acceptance criteria to ensure that each requirement can be verified.
+
+The detailed traceability matrix will be maintained in requirements/traceability-matrix.md.
+
+The traceability process will help identify requirements that have no corresponding user story or acceptance criterion and ensure that the project's requirements are covered.
+10. Conclusion
+This Software Requirements Specification defines the proposed functionality, quality requirements, stakeholders, system interfaces, assumptions and constraints of the University Library Management System.
+
+The document provides a foundation for future system design and prototyping. The requirements will be reviewed and updated when further information about library policies and stakeholder needs becomes available.
