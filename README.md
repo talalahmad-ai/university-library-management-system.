@@ -79,3 +79,26 @@ Assignment 1 planning documents, editable sources and exports are published. The
 ## Source and attribution
 
 The instructor's *Assignements 1 to 4 and Case scenario.pdf*, Assignment 1, is the assessment source. The uploaded README, starter ZIP and pasted master instruction are supporting material; they do not authorize executing later phases. See the [source review](reports/source-review.md). This package was prepared with Codex assistance; no interviews, student contributions or human test results are claimed.
+
+
+
+
+
+
+
+## Assignment 2 — Requirements Analysis
+
+This assignment focuses on requirements analysis and documentation for the University Library Management System.
+
+### Deliverables
+- Stakeholder analysis and stakeholder needs
+- Functional requirements
+- Non-functional requirements
+- Assumptions and constraints
+- User stories
+- Acceptance criteria
+- AI-assisted requirements review
+- Software Requirements Specification (SRS)
+- Requirements traceability matrix
+
+All requirements documentation is maintained in the `requirements/` and `docs/` directories.
